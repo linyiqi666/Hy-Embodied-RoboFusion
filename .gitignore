@@ -1,0 +1,15 @@
+.settings/
+.vscode/
+
+CM4/Debug/*
+CM4/.settings/
+
+
+CM7/Debug/*
+CM7/.settings/
+
+Middlewares/*
+
+Drivers/*
+
+Common/*
