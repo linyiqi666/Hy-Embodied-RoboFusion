@@ -1,0 +1,24 @@
+* text=auto
+
+# Force the following filetypes to have unix eols, so Windows does not break them
+*.* text eol=lf
+
+# Separate configuration for files without suffix
+LICENSE text eol=lf
+
+# These files are binary and should be left untouched
+# (binary is a macro for -text -diff)
+*.bin binary
+*.hex binary
+*.png binary
+*.pdf binary
+*.doc binary
+*.docx binary
+*.ppt binary
+*.pptx binary
+*.xls binary
+*.xlsx binary
+*.exe binary
+*.slx binary
+*.mdl binary
+# Add more binary...
